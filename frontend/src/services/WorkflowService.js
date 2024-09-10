@@ -19,7 +19,7 @@ export const getWorkflows = async () => {
 // Create a new workflow
 export const createWorkflow = async (workflow) => {
   try {
-    const response = await axios.post('http://localhost:4005/api/workflows', workflow);
+    const response = await axios.post('https://t-stax-assign.vercel.app/api/workflows', workflow);
     return response.data;
   } catch (error) {
     console.error('Error creating workflow:', error);

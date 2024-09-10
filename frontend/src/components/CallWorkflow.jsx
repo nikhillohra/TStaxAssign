@@ -12,7 +12,7 @@ function CallWorkflow() {
   useEffect(() => {
     const fetchWorkflows = async () => {
       try {
-        const response = await axios.get("http://localhost:4005/api/workflows");
+        const response = await axios.get("https://t-stax-assign.vercel.app/api/workflows");
         setWorkflowOptions(response.data); 
       } catch (error) {
         setErrorMessage(error.response?.data?.message || "Failed to fetch workflows.");
