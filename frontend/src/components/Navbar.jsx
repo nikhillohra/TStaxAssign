@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="p-4 flex">
           <img
             className=" mix-blend-multiply object-contain"
-            src="./src/assets/tstax.webp"
+            src="./tstax.webp"
             alt="logo"
             width={100}
             height={100}

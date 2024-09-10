@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="py-4 flex">
           <img
             className=" mix-blend-multiply object-contain"
-            src="./src/assets/tstax.webp"
+            src="./tstax.webp"
             alt="logo"
-            width={100}
-            height={100}
+            width={80}
+            height={80}
           />
         </div>
         <div className="flex py-2 items-center justify-center">
